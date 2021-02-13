@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 200.61 sec <<< FAILURE! - in TestSuite
+afterClass(com.qa.linkedin.testcases.SearchDataDrivenTest)  Time elapsed: 78.018 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='artdeco-button__text' and contains(text(),'Sign out')]' (tried for 45 second(s) with 500 milliseconds interval)
+	at com.qa.linkedin.testcases.SearchDataDrivenTest.afterClass(SearchDataDrivenTest.java:52)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='artdeco-button__text' and contains(text(),'Sign out')]"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0M1MH5T', ip: '192.168.0.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7076742073a4036db6f84e10ab16eb24
+*** Element info: {Using=xpath, value=//span[@class='artdeco-button__text' and contains(text(),'Sign out')]}
+	at com.qa.linkedin.testcases.SearchDataDrivenTest.afterClass(SearchDataDrivenTest.java:52)
+
