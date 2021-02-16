@@ -6,7 +6,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.log4testng.Logger;
-
+/**
+* Name: Ramesh
+* date: 16-02-2021
+*/
 public class SearchResultsPage extends BasePageWeb {
 
 	private Logger log = Logger.getLogger(SearchResultsPage.class);
